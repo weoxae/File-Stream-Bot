@@ -37,7 +37,7 @@
 - `BIN_CHANNEL` : Create a new channel (private/public) and add that channel id in this field
 - `OWNER_USERNAME` : U should be knowing it afterall it's your username dont remember it? just go to settings!
 - `OWNER_ID` : Your Telegram User ID
-- `DATABASE_URL` : MongoDB URI get from here.
+- `DATABASE_URL` : MongoDB URI get from [here](https://youtu.be/pMJpHoiu1go)
 - `UPDATES_CHANNEL` : Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.
 - `BANNED_CHANNELS` : Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with <kbd>Space</kbd>.
 - `SLEEP_THRESHOLD` : Set a sleep threshold for flood wait exceptions happening globally in this telegram bot instance, below which any request that raises a flood wait will be automatically invoked again after sleeping for the required amount of time. Flood wait exceptions requiring higher waiting times will be raised. Defaults to 60 seconds.
