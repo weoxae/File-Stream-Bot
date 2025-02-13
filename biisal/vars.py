@@ -17,7 +17,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '26762055'))
     API_HASH = str(getenv('API_HASH', '9027500f3efea9774eb5bd445f57cb78'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7526967917:AAHOgMDwdGc_Trm5237h86fws7uYqShvoc8'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7683605897:AAFb2jeWMLSqN_d2CBAliY9q4qJdO69uMQw'))
     PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
     name = str(getenv('name', 'weoo_file_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
