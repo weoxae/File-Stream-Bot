@@ -18,7 +18,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '26762055'))
     API_HASH = str(getenv('API_HASH', '9027500f3efea9774eb5bd445f57cb78'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '7683605897:AAFb2jeWMLSqN_d2CBAliY9q4qJdO69uMQw'))
-    PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
+    PICS = (environ.get('PICS', 'https://envs.sh/lE.jpg')).split()
     name = str(getenv('name', 'weoo_file_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
